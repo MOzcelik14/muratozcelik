@@ -2,7 +2,7 @@
 
 Personal portfolio for **Murat Özçelik**, focused on film, software development and music production.
 
-Live site: https://muratozcelik.vercel.app/
+Live site: https://mozcelik14.github.io/muratozcelik/ (also at https://muratozcelik.vercel.app/)
 
 ## Highlights
 
@@ -14,7 +14,7 @@ Live site: https://muratozcelik.vercel.app/
 - education and selected certifications
 - interactive, keyboard-accessible practice timeline
 - SEO, Open Graph and structured-data metadata
-- Vercel deployment
+- GitHub Pages & Vercel deployment
 
 ## Structure
 
