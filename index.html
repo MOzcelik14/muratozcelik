@@ -6,7 +6,7 @@
 <meta name="google-site-verification" content="JruRG9GLRUZkIh85JL8lNO2CkzBblAEr84ETjHAbg5w">
 <meta name="description" content="Murat Özçelik: kısa filmler, müzik ve Puresteel OS, triM. ile İLEFBot dahil açık kaynak projeleri.">
 <meta name="author" content="Murat Özçelik">
-<meta name="theme-color" content="#15171a">
+<meta name="theme-color" content="#0a0b0d">
 <link rel="canonical" href="https://muratozcelik.vercel.app/">
 <meta property="og:title" content="Murat Özçelik | Portfolyo">
 <meta property="og:description" content="Murat Özçelik'in film, müzik ve açık kaynak yazılım projeleri.">
@@ -20,10 +20,14 @@
 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/198776086?v=4">
 <title>Murat Özçelik | Portfolyo</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='Arial' font-weight='bold'>M.</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Murat Özçelik","alternateName":"M. Özçelik","url":"https://muratozcelik.vercel.app/","jobTitle":"Director, Developer, Music Producer","affiliation":{"@type":"CollegeOrUniversity","name":"Bolu Abant İzzet Baysal Üniversitesi"},"sameAs":["https://github.com/MOzcelik14","https://www.linkedin.com/in/murat-özçelik-398713292","https://open.spotify.com/intl-tr/artist/2BlTVMDj9GnFcdL9kGWNOf"]}</script>
 </head>
 <body>
+<div class="film-grain" aria-hidden="true"></div>
 <a class="skip" href="#content" data-tr="İçeriğe geç" data-en="Skip to content">İçeriğe geç</a>
 <nav aria-label="Ana gezinme" data-tr-aria-label="Ana gezinme" data-en-aria-label="Primary navigation">
   <div class="wrap nav-inner">
@@ -32,10 +36,10 @@
       <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks">Menü</button>
       <div class="nav-links" id="navLinks">
         <a href="#showreel">Showreel</a>
+        <a href="#filmler" data-tr="Filmler" data-en="Films">Filmler</a>
+        <a href="#muzik" data-tr="Müzik" data-en="Music">Müzik</a>
         <a href="#projeler" data-tr="Projeler" data-en="Projects">Projeler</a>
         <a href="#yetenekler" data-tr="Alanlar" data-en="Practice">Alanlar</a>
-        <a href="#filmler" data-tr="Filmler" data-en="Films">Filmler</a>
-        <a href="#hakkinda" data-tr="Hakkında" data-en="About">Hakkında</a>
         <a href="#iletisim" data-tr="İletişim" data-en="Contact">İletişim</a>
       </div>
       <div class="lang-switch" aria-label="Dil seçimi" data-tr-aria-label="Dil seçimi" data-en-aria-label="Language selection">
@@ -48,12 +52,17 @@
 
 <header class="hero" id="top">
   <div class="wrap">
-    <p class="hero-kicker" data-tr="Sinema · Ses Tasarımı · Açık Kaynak Yazılım" data-en="Film · Sound Design · Open-Source Software">Sinema · Ses Tasarımı · Açık Kaynak Yazılım</p>
-    <h1>Murat Özçelik</h1>
-    <p class="kicker" data-tr="Bilişim teknisyeni · RTS öğrencisi · Bağımsız geliştirici" data-en="IT technician · Film student · Independent developer">Bilişim teknisyeni · RTS öğrencisi · Bağımsız geliştirici</p>
-    <p class="hero-copy" data-tr="Film yönetmenliği, ses tasarımı ve Linux odaklı açık kaynak yazılım projeleri üretiyorum. Görsel anlatı ile teknik mimarinin kesiştiği alanlara odaklanıyorum." data-en="I direct short films, design sound, and build Linux open-source tools with Rust, exploring where visual storytelling meets technical architecture.">Film yönetmenliği, ses tasarımı ve Linux odaklı açık kaynak yazılım projeleri üretiyorum. Görsel anlatı ile teknik mimarinin kesiştiği alanlara odaklanıyorum.</p>
+    <div class="hero-spec" aria-hidden="true">
+      <span>24 FPS</span>
+      <span>48 KHZ</span>
+      <span>İSTANBUL / BOLU</span>
+    </div>
+    <p class="hero-kicker" data-tr="Sinema · Müzik &amp; Ses Tasarımı · Açık Kaynak Yazılım" data-en="Cinema · Music &amp; Sound Design · Open-Source Software">Sinema · Müzik &amp; Ses Tasarımı · Açık Kaynak Yazılım</p>
+    <h1>Murat <span class="serif-italic">Özçelik</span></h1>
+    <p class="kicker" data-tr="Yönetmen · Müzik Prodüktörü · RTS Öğrencisi · Bağımsız Geliştirici" data-en="Director · Music Producer · Film Student · Independent Developer">Yönetmen · Müzik Prodüktörü · RTS Öğrencisi · Bağımsız Geliştirici</p>
+    <p class="hero-copy" data-tr="Kısa film yönetmenliği, film müziği besteciliği, ses tasarımı ve Linux/Rust tabanlı açık kaynak yazılımlar üretiyorum. Görsel anlatı ile sesin ve teknolojinin kesiştiği işlerin peşindeyim." data-en="I direct short films, compose film scores, design sound, and build Linux/Rust open-source tools — working where visual storytelling, audio, and technology meet.">Kısa film yönetmenliği, film müziği besteciliği, ses tasarımı ve Linux/Rust tabanlı açık kaynak yazılımlar üretiyorum. Görsel anlatı ile sesin ve teknolojinin kesiştiği işlerin peşindeyim.</p>
     <div class="hero-meta"><span>BAİBÜ · Radyo, Televizyon ve Sinema</span><span data-tr="Ionian University · Görsel-İşitsel Sanatlar (Erasmus+)" data-en="Ionian University · Audio &amp; Visual Arts (Erasmus+)">Ionian University · Görsel-İşitsel Sanatlar (Erasmus+)</span></div>
-    <div class="hero-actions"><a class="hero-showreel-link" href="#showreel" data-tr="Showreel’i izle" data-en="Watch showreel">Showreel’i izle</a><a href="#projeler" data-tr="Projeler ↓" data-en="Projects ↓">Projeler ↓</a><a href="#filmler" data-tr="Filmler ↓" data-en="Films ↓">Filmler ↓</a><a href="about.html" data-tr="Hakkımda" data-en="About">Hakkımda</a><a href="https://github.com/MOzcelik14" target="_blank" rel="noopener">GitHub ↗</a></div>
+    <div class="hero-actions"><a class="hero-showreel-link" href="#showreel" data-tr="▶ Showreel’i izle" data-en="▶ Watch showreel">▶ Showreel’i izle</a><a href="#filmler" data-tr="Filmler ↓" data-en="Films ↓">Filmler ↓</a><a href="#muzik" data-tr="Müzik ↓" data-en="Music ↓">Müzik ↓</a><a href="#projeler" data-tr="Projeler ↓" data-en="Projects ↓">Projeler ↓</a><a href="about.html" data-tr="Hakkımda" data-en="About">Hakkımda</a></div>
 
     <div class="showreel-feature" id="showreel" aria-labelledby="showreel-title">
       <div class="showreel-feature-head">
@@ -61,16 +70,20 @@
           <p class="showreel-label"><span data-tr="SEÇİLİ ÇALIŞMALAR" data-en="SELECTED WORKS">SEÇİLİ ÇALIŞMALAR</span> <span aria-hidden="true">/</span> 2024–2026</p>
           <h2 class="showreel-title" id="showreel-title">Showreel</h2>
         </div>
-        <p class="showreel-subtitle" data-tr="Kısa film, kurgu ve ses çalışmalarından bir seçki" data-en="A selection of short films, editing and sound design">Kısa film, kurgu ve ses çalışmalarından bir seçki</p>
+        <p class="showreel-subtitle" data-tr="Kısa film, görüntü yönetimi, kurgu ve ses tasarımından bir seçki" data-en="A selection of short films, cinematography, editing and sound design">Kısa film, görüntü yönetimi, kurgu ve ses tasarımından bir seçki</p>
       </div>
       <div class="showreel-frame">
-        <div class="showreel-frame-top" aria-hidden="true"><span>MURAT ÖZÇELİK <span class="showreel-frame-divider">/</span> SHOWREEL</span><span>16:9 <span class="showreel-frame-divider">·</span> 2024—2026</span></div>
+        <span class="vf-corner vf-tl" aria-hidden="true"></span>
+        <span class="vf-corner vf-tr" aria-hidden="true"></span>
+        <span class="vf-corner vf-bl" aria-hidden="true"></span>
+        <span class="vf-corner vf-br" aria-hidden="true"></span>
+        <div class="showreel-frame-top" aria-hidden="true"><span><span class="rec-indicator"></span>REEL 01 <span class="showreel-frame-divider">/</span> MURAT ÖZÇELİK</span><span>16:9 · 24FPS <span class="showreel-frame-divider">·</span> 2024—2026</span></div>
         <div class="showreel-player">
           <iframe src="https://www.youtube-nocookie.com/embed/x4S_wHrbVSY?rel=0&amp;playsinline=1" title="Murat Özçelik — Showreel (2024–2026)" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
       <div class="showreel-feature-foot">
-        <span data-tr="2024–2026 arasında ürettiğim işlerden kısa bir seçki." data-en="Selected projects and creative work from 2024–2026.">2024–2026 arasında ürettiğim işlerden kısa bir seçki.</span>
+        <span data-tr="2024–2026 arasında ürettiğim sinema ve ses işlerinden kısa bir seçki." data-en="Selected cinema and sound work from 2024–2026.">2024–2026 arasında ürettiğim sinema ve ses işlerinden kısa bir seçki.</span>
         <a href="https://www.youtube.com/watch?v=x4S_wHrbVSY" target="_blank" rel="noopener noreferrer" data-tr="YouTube’da aç ↗" data-en="Open on YouTube ↗">YouTube’da aç ↗</a>
       </div>
     </div>
@@ -78,8 +91,62 @@
 </header>
 
 <main id="content">
+<section id="filmler"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow" data-tr="Sinema" data-en="Cinema">Sinema</div><h2 class="section-title" data-tr="Kısa Filmler" data-en="Short Films">Kısa Filmler</h2><p class="section-copy" data-tr="Yönetmenlik, görüntü yönetimi, kurgu, ses ve müzik çalışmalarını üstlendiğim kısa filmler." data-en="Short films I've worked on across directing, cinematography, editing, sound and music.">Yönetmenlik, görüntü yönetimi, kurgu, ses ve müzik çalışmalarını üstlendiğim kısa filmler.</p></div></div>
+  <div class="films">
+    <article class="film">
+      <div class="film-slate" aria-hidden="true"><span>REEL 01</span><span>16:9</span></div>
+      <div class="film-media"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/FaE6MVLz2mk?rel=0" title="Zamansız Yolculuk" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="film-body"><h3 data-tr="Zamansız Yolculuk" data-en="Timeless Journey">Zamansız Yolculuk</h3><p data-tr="Yönetmenlik · Senaryo · Ses ve Müzik" data-en="Director · Screenplay · Sound &amp; Music">Yönetmenlik · Senaryo · Ses ve Müzik</p></div>
+    </article>
+    <article class="film">
+      <div class="film-slate" aria-hidden="true"><span>REEL 02</span><span>16:9</span></div>
+      <div class="film-media"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/VOI6pa3I4jM?rel=0" title="Gaia'nın Çığlığı" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="film-body"><h3 data-tr="Gaia'nın Çığlığı" data-en="Gaia's Cry">Gaia'nın Çığlığı</h3><p data-tr="Görüntü Yönetmenliği · Kurgu · Ses ve Müzik" data-en="Cinematography · Editing · Sound &amp; Music">Görüntü Yönetmenliği · Kurgu · Ses ve Müzik</p></div>
+    </article>
+    <article class="film">
+      <div class="film-slate" aria-hidden="true"><span>REEL 03</span><span>16:9</span></div>
+      <div class="film-media"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/tJGxSjigk_o?rel=0" title="DISTANT" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="film-body"><h3>DISTANT</h3><p data-tr="Yönetmenlik · Görüntü · Kurgu · Ses" data-en="Director · Cinematography · Editing · Sound">Yönetmenlik · Görüntü · Kurgu · Ses</p></div>
+    </article>
+  </div>
+</div></section>
+
+<section id="muzik" class="music-section"><div class="wrap">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow" data-tr="Müzik &amp; Ses Tasarımı" data-en="Music &amp; Sound Design">Müzik &amp; Ses Tasarımı</div>
+      <h2 class="section-title" data-tr="M. Özçelik — Ses ve Müzik" data-en="M. Özçelik — Sound &amp; Music">M. Özçelik — Ses ve Müzik</h2>
+      <p class="section-copy" data-tr="Film müzikleri, elektronik prodüksiyon, ritim çalışmaları ve sinema için ses tasarımı." data-en="Film scores, electronic production, beats and sound design for cinema.">Film müzikleri, elektronik prodüksiyon, ritim çalışmaları ve sinema için ses tasarımı.</p>
+    </div>
+  </div>
+  <div class="music-grid">
+    <div class="music-info">
+      <div class="studio-meter" aria-hidden="true">
+        <span class="meter-label">MASTER // STEREO OUT</span>
+        <div class="eq-bars"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      </div>
+      <p class="music-lead" data-tr="Kurgu aşamasından itibaren sesle düşünmek, görüntüye ritim ve atmosfer kazandırmanın temel yolu." data-en="Thinking with sound from the editing stage is central to how I build rhythm and atmosphere on screen.">Kurgu aşamasından itibaren sesle düşünmek, görüntüye ritim ve atmosfer kazandırmanın temel yolu.</p>
+      <p class="music-desc" data-tr="M. Özçelik adıyla elektronik müzik, ritim odaklı parçalar ve kısa filmler için özgün müzikler besteliyorum. TRT Geleceğin İletişimcileri'nde üçüncülük alan “Büyük Kavuşma” animasyonunun müziklerini; Sabancı Vakfı seçkisinde yer alan ve Yeşil Vatan Kısa Film Yarışması'nda ikincilik kazanan “Yeniden Yeşer” filminin ise ses ve müzik çalışmalarını üstlendim." data-en="Under M. Özçelik, I compose electronic music, beats and original film scores. I scored the animated film “Büyük Kavuşma” (3rd Place at TRT Future Communicators) and handled sound and music for “Yeniden Yeşer” (Sabancı Foundation selection &amp; 2nd Place at Green Homeland Short Film Competition).">M. Özçelik adıyla elektronik müzik, ritim odaklı parçalar ve kısa filmler için özgün müzikler besteliyorum. TRT Geleceğin İletişimcileri'nde üçüncülük alan “Büyük Kavuşma” animasyonunun müziklerini; Sabancı Vakfı seçkisinde yer alan ve Yeşil Vatan Kısa Film Yarışması'nda ikincilik kazanan “Yeniden Yeşer” filminin ise ses ve müzik çalışmalarını üstlendim.</p>
+      <div class="music-tags"><span>FL Studio</span><span>Ableton Live</span><span data-tr="Film Müziği" data-en="Film Scoring">Film Müziği</span><span data-tr="Ses Tasarımı" data-en="Sound Design">Ses Tasarımı</span><span>Audacity</span></div>
+      <div class="music-links">
+        <a class="btn" href="https://open.spotify.com/intl-tr/artist/2BlTVMDj9GnFcdL9kGWNOf" target="_blank" rel="noopener noreferrer" data-tr="Spotify’da dinle ↗" data-en="Listen on Spotify ↗">Spotify’da dinle ↗</a>
+      </div>
+    </div>
+    <div class="spotify-wrap">
+      <div class="spotify-header" aria-hidden="true"><span>SPOTIFY ARTIST</span><span>M. ÖZÇELİK</span></div>
+      <iframe title="M. Özçelik — Spotify" style="border-radius:8px" src="https://open.spotify.com/embed/artist/2BlTVMDj9GnFcdL9kGWNOf?utm_source=generator&amp;theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </div>
+</div></section>
+
+<section id="oduller"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow" data-tr="Başarılar" data-en="Recognition">Başarılar</div><h2 class="section-title" data-tr="Proje Başarıları & Katılımlar" data-en="Project Recognition & Selections">Proje Başarıları & Katılımlar</h2><p class="section-copy" data-tr="Bu başarılar ekip üyesi olarak katkıda bulunduğum yapımlara aittir." data-en="These achievements belong to productions I contributed to as a team member.">Bu başarılar ekip üyesi olarak katkıda bulunduğum yapımlara aittir.</p></div></div>
+  <div class="credits"><article class="credit"><span class="year">2024</span><h3><a href="https://www.youtube.com/watch?v=8ODBioc6kPo" target="_blank" rel="noopener" data-tr="TRT Geleceğin İletişimcileri — Üçüncülük ↗" data-en="TRT Future Communicators — 3rd Place ↗">TRT Geleceğin İletişimcileri — Üçüncülük ↗</a></h3><p data-tr="“Büyük Kavuşma” · Animasyon · Müzik (ekip üyesi)" data-en="“Büyük Kavuşma” · Animation · Music (team member)">“Büyük Kavuşma” · Animasyon · Müzik (ekip üyesi)</p></article><article class="credit"><span class="year">2025</span><h3><a href="https://www.youtube.com/watch?v=_D5XBpl4Dr8" target="_blank" rel="noopener" data-tr="Sabancı Vakfı — Market Seçkisi ↗" data-en="Sabancı Foundation — Market Selection ↗">Sabancı Vakfı — Market Seçkisi ↗</a></h3><p data-tr="“Yeniden Yeşer” · Ses & Müzik (ekip üyesi)" data-en="“Yeniden Yeşer” · Sound & Music (team member)">“Yeniden Yeşer” · Ses & Müzik (ekip üyesi)</p></article><article class="credit"><span class="year">2026</span><h3><a href="https://www.youtube.com/watch?v=_D5XBpl4Dr8" target="_blank" rel="noopener" data-tr="Yeşil Vatan Kısa Film Yarışması — Öğrenci / Kurmaca İkincilik ↗" data-en="Green Homeland Short Film Competition — Student / Fiction 2nd Place ↗">Yeşil Vatan Kısa Film Yarışması — Öğrenci / Kurmaca İkincilik ↗</a></h3><p data-tr="“Yeniden Yeşer” · Orman Genel Müdürlüğü · Ses & Müzik (ekip üyesi)" data-en="“Yeniden Yeşer” · General Directorate of Forestry · Sound & Music (team member)">“Yeniden Yeşer” · Orman Genel Müdürlüğü · Ses & Müzik (ekip üyesi)</p></article><article class="credit"><span class="year">2026</span><h3><a href="https://avarts.ionio.gr/festival/2026/en/events/773" target="_blank" rel="noopener" data-tr="Ionian University — 19. Görsel-İşitsel Sanatlar Festivali ↗" data-en="Ionian University — 19th Audiovisual Arts Festival ↗">Ionian University — 19. Görsel-İşitsel Sanatlar Festivali ↗</a></h3><p data-tr="Ses Tasarımı AUD323 · Resmî festival programı katılımı" data-en="Sound Design AUD323 · Official festival programme participant">Ses Tasarımı AUD323 · Resmî festival programı katılımı</p></article></div>
+</div></section>
+
 <section id="projeler" class="projects-section"><div class="wrap">
-  <div class="section-head"><div><div class="eyebrow" data-tr="Yazılım & Araçlar" data-en="Software & Tools">Yazılım & Araçlar</div><h2 class="section-title" data-tr="Açık Kaynak Projeler" data-en="Open Source Projects">Açık Kaynak Projeler</h2><p class="section-copy" data-tr="İşletim sistemi araçlarından yaratıcı masaüstü yazılımlarına kadar geliştirdiğim projeler." data-en="Projects ranging from operating system utilities to creative desktop software.">İşletim sistemi araçlarından yaratıcı masaüstü yazılımlarına kadar geliştirdiğim projeler.</p></div></div>
+  <div class="section-head"><div><div class="eyebrow" data-tr="Yazılım &amp; Araçlar" data-en="Software &amp; Tools">Yazılım &amp; Araçlar</div><h2 class="section-title" data-tr="Açık Kaynak Projeler" data-en="Open Source Projects">Açık Kaynak Projeler</h2><p class="section-copy" data-tr="Kurgu araçlarından işletim sistemine, üretimi destekleyen açık kaynak yazılımlar." data-en="Open-source software supporting creative and daily workflows, from editing tools to Linux systems.">Kurgu araçlarından işletim sistemine, üretimi destekleyen açık kaynak yazılımlar.</p></div></div>
   <div class="project-grid">
     <article class="project-card project-featured">
       <div class="project-topline"><span data-tr="LINUX DAĞITIMI" data-en="LINUX DISTRIBUTION">LINUX DAĞITIMI</span></div>
@@ -103,20 +170,6 @@
       <div class="project-bottom"><div class="project-tags"><span>JavaScript</span><span>Web</span><span data-tr="Yapay Zekâ" data-en="AI">Yapay Zekâ</span></div><div class="project-card-links"><a href="https://github.com/MOzcelik14/ILEFBot" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
     </article>
   </div>
-</div></section>
-
-<section id="filmler"><div class="wrap">
-  <div class="section-head"><div><div class="eyebrow" data-tr="Sinema" data-en="Film">Sinema</div><h2 class="section-title" data-tr="Kısa Filmler" data-en="Short Films">Kısa Filmler</h2><p class="section-copy" data-tr="Kamera, kurgu, ses ve müzik çalışmalarında yer aldığım kısa filmler." data-en="Short films I've worked on across camera, editing, sound and music.">Kamera, kurgu, ses ve müzik çalışmalarında yer aldığım kısa filmler.</p></div></div>
-  <div class="films">
-    <article class="film"><div class="film-media"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/FaE6MVLz2mk?rel=0" title="Zamansız Yolculuk" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="film-body"><h3 data-tr="Zamansız Yolculuk" data-en="Timeless Journey">Zamansız Yolculuk</h3><p data-tr="Yönetmenlik · Senaryo · Ses ve Müzik" data-en="Director · Screenplay · Sound & Music">Yönetmenlik · Senaryo · Ses ve Müzik</p></div></article>
-    <article class="film"><div class="film-media"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/VOI6pa3I4jM?rel=0" title="Gaia'nın Çığlığı" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="film-body"><h3 data-tr="Gaia'nın Çığlığı" data-en="Gaia's Cry">Gaia'nın Çığlığı</h3><p data-tr="Görüntü Yönetmenliği · Kurgu · Ses ve Müzik" data-en="Cinematography · Editing · Sound & Music">Görüntü Yönetmenliği · Kurgu · Ses ve Müzik</p></div></article>
-    <article class="film"><div class="film-media"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/tJGxSjigk_o?rel=0" title="DISTANT" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="film-body"><h3>DISTANT</h3><p data-tr="Yönetmenlik · Görüntü · Kurgu · Ses" data-en="Director · Cinematography · Editing · Sound">Yönetmenlik · Görüntü · Kurgu · Ses</p></div></article>
-  </div>
-</div></section>
-
-<section id="oduller"><div class="wrap">
-  <div class="section-head"><div><div class="eyebrow" data-tr="Başarılar" data-en="Recognition">Başarılar</div><h2 class="section-title" data-tr="Proje Başarıları & Katılımlar" data-en="Project Recognition & Selections">Proje Başarıları & Katılımlar</h2><p class="section-copy" data-tr="Bu başarılar ekip üyesi olarak katkıda bulunduğum yapımlara aittir." data-en="These achievements belong to productions I contributed to as a team member.">Bu başarılar ekip üyesi olarak katkıda bulunduğum yapımlara aittir.</p></div></div>
-  <div class="credits"><article class="credit"><span class="year">2024</span><h3><a href="https://www.youtube.com/watch?v=8ODBioc6kPo" target="_blank" rel="noopener" data-tr="TRT Geleceğin İletişimcileri — Üçüncülük ↗" data-en="TRT Future Communicators — 3rd Place ↗">TRT Geleceğin İletişimcileri — Üçüncülük ↗</a></h3><p data-tr="“Büyük Kavuşma” · Animasyon · Müzik (ekip üyesi)" data-en="“Büyük Kavuşma” · Animation · Music (team member)">“Büyük Kavuşma” · Animasyon · Müzik (ekip üyesi)</p></article><article class="credit"><span class="year">2025</span><h3><a href="https://www.youtube.com/watch?v=_D5XBpl4Dr8" target="_blank" rel="noopener" data-tr="Sabancı Vakfı — Market Seçkisi ↗" data-en="Sabancı Foundation — Market Selection ↗">Sabancı Vakfı — Market Seçkisi ↗</a></h3><p data-tr="“Yeniden Yeşer” · Ses & Müzik (ekip üyesi)" data-en="“Yeniden Yeşer” · Sound & Music (team member)">“Yeniden Yeşer” · Ses & Müzik (ekip üyesi)</p></article><article class="credit"><span class="year">2026</span><h3><a href="https://www.youtube.com/watch?v=_D5XBpl4Dr8" target="_blank" rel="noopener" data-tr="Yeşil Vatan Kısa Film Yarışması — Öğrenci / Kurmaca İkincilik ↗" data-en="Green Homeland Short Film Competition — Student / Fiction 2nd Place ↗">Yeşil Vatan Kısa Film Yarışması — Öğrenci / Kurmaca İkincilik ↗</a></h3><p data-tr="“Yeniden Yeşer” · Orman Genel Müdürlüğü · Ses & Müzik (ekip üyesi)" data-en="“Yeniden Yeşer” · General Directorate of Forestry · Sound & Music (team member)">“Yeniden Yeşer” · Orman Genel Müdürlüğü · Ses & Müzik (ekip üyesi)</p></article><article class="credit"><span class="year">2026</span><h3><a href="https://avarts.ionio.gr/festival/2026/en/events/773" target="_blank" rel="noopener" data-tr="Ionian University — 19. Görsel-İşitsel Sanatlar Festivali ↗" data-en="Ionian University — 19th Audiovisual Arts Festival ↗">Ionian University — 19. Görsel-İşitsel Sanatlar Festivali ↗</a></h3><p data-tr="Ses Tasarımı AUD323 · Resmî festival programı katılımı" data-en="Sound Design AUD323 · Official festival programme participant">Ses Tasarımı AUD323 · Resmî festival programı katılımı</p></article></div>
 </div></section>
 
 <section id="hakkinda"><div class="wrap">
