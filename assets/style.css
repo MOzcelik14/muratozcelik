@@ -932,6 +932,9 @@ main section {
 }
 
 .laurel-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
   color: #9e2f20;
   opacity: 0.85;
   flex-shrink: 0;
